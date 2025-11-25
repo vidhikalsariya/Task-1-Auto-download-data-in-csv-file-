@@ -1,7 +1,7 @@
-# task-1-Auto-download-data-in-csv-file-
+# Task-1-Auto-download-data-in-csv-file-
 This Python script downloads intraday/daily OHLCV stock data using yfinance, processes it, resamples it to any timeframe (1m → 5m → 15m → 1h → 1d → 1wk), and saves the final result into a CSV file.  It is useful for:  ✔ Algo traders ✔ Backtesting ✔ Technical analysis ✔ Machine learning datasets ✔ Candle charting
 
-Features:
+# Features:
 
 ✔ Stock data download using yfinance
 Example:
@@ -31,7 +31,7 @@ Input	Description
 Format:
 SBIN.NS_5m.csv
 
-How the Script Works (Step-by-Step)
+# How the Script Works (Step-by-Step)
 
 1️⃣ User Inputs Required
 You enter:
@@ -85,7 +85,7 @@ date	time	open	high	low	close	volume
 0   2025-01-01   09:30:00   670.2    672.1    669.5    671.8    120000
 1   2025-01-01   09:35:00   671.8    673.0    670.2    672.6     85000
 
-🔧 How to Use the Script
+#  How to Use the Script
 1️⃣ Install Dependencies
 pip install yfinance pandas
 
